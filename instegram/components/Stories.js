@@ -38,6 +38,15 @@ function Stories() {
             {suggestions.map( (profile) => (
                 <Story 
                 key={profile.id} 
+                img= "https://firebasestorage.googleapis.com/v0/b/instegram-83756.appspot.com/o/posts%2FRaX48qlIBChGiaLdbn17%2Fimage?alt=media&token=3149f2e6-e616-4d66-a244-95923dd091e4"
+                username= {profile.username}
+
+                 />
+            ))}
+                    
+            {suggestions.map( (profile) => (
+                <Story 
+                key={profile.id} 
                 img= {profile.avatar}
                 username= {profile.username}
 
